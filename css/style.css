@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto+Slab:wght@300;500;700&display=swap")
+
+@import "components/container.css";
+@import "components/banner.css";
+@import "components/card.css";
+
+
+@import url("components/avatar.css");
+@import url("components/button.css");
+
+
+
+
+
+
+body, head {
+	text-align: center;
+}
+
+body {
+	color:rgba(148, 0, 10, 1);
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	line-height: 1.25;
+	margin: 0px auto;
+}
+
+h1 {
+	color: rgba(255, 255, 255, 1.0);
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bolder;
+	letter-spacing: 4px;
+	font-size: 60px;
+}
+
+h2, h3 {
+	color: rgba(189, 0, 13, 1);
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: lighter;
+}
+
+h4{
+	color: rgba(189, 0, 13, 1);
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: lighter;
+	margin-bottom: 5px;
+	margin-top:5px;
+	font-size: 22px;
+}
+
+a  {
+	text-decoration: none;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	line-height: 1
+}
+
+a:hover {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;	
+}
+
+img {
+ 	border: 5px solid darkred;
+ }

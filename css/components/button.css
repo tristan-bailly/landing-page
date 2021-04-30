@@ -1,0 +1,78 @@
+.btn-red {
+	background-color: #73000A;
+	color:white;
+	padding: 20px 25px;
+	position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    transition: .2s linear;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 1.2px;
+    transition: .15s;
+    -webkit-appearance: none;
+    font-size: 20px;
+}
+
+.btn-red:hover {
+	background-color: white;
+	color:#73000A;
+	animation: slide-in-left 0.75s .5s cubic-bezier(0.46, 0.03, 0.52, 0.96) both;
+    align-self: flex-start;
+    border-color: var(--color-tertiary);
+}
+
+
+.btn-round {
+	background-color: #73000A;
+	color:white;
+	padding: 15px 20px;
+	position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    transition: .2s linear;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 1.2px;
+    transition: .15s;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.btn-round:hover {
+	background-color: white;
+	color:#73000A;
+	animation: slide-in-left 0.75s .5s cubic-bezier(0.46, 0.03, 0.52, 0.96) both;
+    align-self: center;
+    border-color: var(--color-tertiary);
+
+}
+ .btn-link {
+	background-color: #73000A;
+	color:white;
+	padding: 15px 20px;
+	margin-top: 7px;
+	position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    transition: .2s linear;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 1.2px;
+    transition: .15s;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    font-size: 15px;
+    align-self: stretch;
+}
+
+.btn-link:hover {
+	background-color: white;
+	color:#73000A;
+	animation: slide-in-left 0.75s .5s cubic-bezier(0.46, 0.03, 0.52, 0.96) both;
+    border-color: var(--color-tertiary);
+}
