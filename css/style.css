@@ -18,7 +18,7 @@ body, head {
 }
 
 body {
-	color:rgba(148, 0, 10, 1);
+	color:rgba(34, 49, 63, 1);
 	font-family: 'Roboto Slab', serif;
 	font-weight: lighter;
 	line-height: 1.25;
@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-	color: rgba(255, 255, 255, 1.0);
+	color: rgba(34, 49, 63, 1);
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: bolder;
 	letter-spacing: 4px;
@@ -34,13 +34,13 @@ h1 {
 }
 
 h2, h3 {
-	color: rgba(189, 0, 13, 1);
+	color: rgba(34, 49, 63, 1);
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: lighter;
 }
 
 h4{
-	color: rgba(189, 0, 13, 1);
+	color: rgba(34, 49, 63, 1);
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: lighter;
 	margin-bottom: 5px;
