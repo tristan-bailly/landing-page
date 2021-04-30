@@ -19,6 +19,7 @@
 	flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    margin-bottom: 70px;
 }
 
 .card-small img {
