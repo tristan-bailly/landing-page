@@ -1,6 +1,6 @@
 .btn-red {
-	background-color: #73000A;
-	color:white;
+	background-color: rgba(34, 49, 63, 1);
+	color:rgba(228, 241, 254, 1);
 	padding: 20px 25px;
 	position: relative;
     display: inline-block;
@@ -16,16 +16,16 @@
 }
 
 .btn-red:hover {
-	background-color: white;
-	color:#73000A;
+	background-color: rgba(228, 241, 254, 1);
+	color:rgba(34, 49, 63, 1);
 	animation: slide-in-left 0.75s .5s cubic-bezier(0.46, 0.03, 0.52, 0.96) both;
     align-self: flex-start;
     border-color: var(--color-tertiary);
 }
 
 .btn-round:hover {
-	background-color: white;
-	color:#73000A;
+	background-color: rgba(228, 241, 254, 1);
+	color:rgba(34, 49, 63, 1);
 	animation: slide-in-left 0.75s .5s cubic-bezier(0.46, 0.03, 0.52, 0.96) both;
     align-self: center;
     border-color: var(--color-tertiary);
